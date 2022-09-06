@@ -85,18 +85,13 @@ async def get_me():
 
 
 bot_username = bot.loop.run_until_complete(get_me())
-start_msg = """Hi {user}!
+start_msg = """**𝖧𝖾𝗅𝗅𝗈 {user}!**😊
 
-**I'm Channel Actions Bot, a bot mainly focused on working with the new [admin approval invite links](https://t.me/telegram/153).**
+**I'm Channel Actions Bot 𝖲𝗉𝖾𝖼𝗂𝖺𝗅𝗅𝗒 𝖬𝖺𝖽𝖾 𝖥𝗈𝗋 𝖳𝖾𝖺𝗆 𝖥𝗂𝗅𝗆 𝖢𝗅𝗎𝖻🎥. 𝖩𝗈𝗂𝗇 𝖡𝖾𝗅𝗈𝗐 𝖢𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝖥𝗈𝗋 𝖥𝗎𝗍𝗎𝗋𝖾 𝖴𝗉𝖽𝖺𝗍𝖾𝗌!🎯**"""
 
-**__I can__**:
-- __Auto approve new join requests.__
-- __Auto Decline New Join Requests.__
-
-`Click the below button to know how to use me!`"""
 start_buttons = [
-    [Button.inline("How to use me ❓", data="helper")],
-    [Button.url("Updates", "https://t.me/BotzHub")],
+    [Button.url("💎 MOVIE GROUP 💎", "https://t.me/FilmClubGroup")],
+    [Button.url("🔊 CHANNEL 📢", "https://t.me/Movies_Stream")],
 ]
 
 
