@@ -90,7 +90,8 @@ start_msg = """**𝖧𝖾𝗅𝗅𝗈 {user}!**😊
 **I'm Channel Actions Bot 𝖲𝗉𝖾𝖼𝗂𝖺𝗅𝗅𝗒 𝖬𝖺𝖽𝖾 𝖥𝗈𝗋 𝖳𝖾𝖺𝗆 𝖥𝗂𝗅𝗆 𝖢𝗅𝗎𝖻🎥. 𝖩𝗈𝗂𝗇 𝖡𝖾𝗅𝗈𝗐 𝖢𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝖥𝗈𝗋 𝖥𝗎𝗍𝗎𝗋𝖾 𝖴𝗉𝖽𝖺𝗍𝖾𝗌!🎯**"""
 start_buttons = [
     [Button.url("💎🎬 Mᴏᴠɪᴇs Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🎬💎", "https://t.me/FilmClubGroup")],
-    [Button.url("🔊📀Nᴇᴡ Oᴛᴛ DᴠD Rᴇʟᴇᴀsᴇ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ📀📢", "https://t.me/NewDVDReleaseUpdate")],
+    [Button.url("🔊📀Nᴇᴡ Oᴛᴛ DᴠD Rᴇʟᴇᴀsᴇ Uᴘᴅᴀᴛᴇs📀📢", "https://t.me/NewDVDReleaseUpdate")],
+    [Button.url("🔰⭕️🇳ᴇᴛꜰʟɪX 🇩ʀɪᴠᴇ [ #LᴇᴀᴋᴇᴅƦɪᴘs™ ]🎥✅", "https://t.me/+nD5DFLywYfI2YmM8")],
 ]
 
 
@@ -232,7 +233,7 @@ async def approver(event):
     welcome_msg = eval(await db.get("WELCOME_MSG") or "{}")
     chat_welcome = (
         welcome_msg.get(chat)
-        or "**𝖧𝖾𝗅𝗅𝗈 {name},\n\n𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖳𝗈 𝖩𝗈𝗂𝗇 {chat} 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 {dn}**"
+        or "**𝖧𝖾𝗅𝗅𝗈 {name}😊,\n\n𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖳𝗈 𝖩𝗈𝗂𝗇 {chat} 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 {dn}\n\nSend /start to know more.🔥**"
     )
     chat_welcome += ""
     who = await bot.get_entity(event.user_id)
