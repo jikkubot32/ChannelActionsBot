@@ -89,9 +89,9 @@ start_msg = """**𝖧𝖾𝗅𝗅𝗈 {user}!**😊
 
 **I'm Channel Actions Bot 𝖲𝗉𝖾𝖼𝗂𝖺𝗅𝗅𝗒 𝖬𝖺𝖽𝖾 𝖥𝗈𝗋 𝖳𝖾𝖺𝗆 𝖥𝗂𝗅𝗆 𝖢𝗅𝗎𝖻🎥. 𝖩𝗈𝗂𝗇 𝖡𝖾𝗅𝗈𝗐 𝖢𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝖥𝗈𝗋 𝖥𝗎𝗍𝗎𝗋𝖾 𝖴𝗉𝖽𝖺𝗍𝖾𝗌!🎯**"""
 start_buttons = [
-    [Button.url("💎🎬 Mᴏᴠɪᴇs Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🎬💎", "https://t.me/FilmClubGroup")],
-    [Button.url("🔊📀Nᴇᴡ Oᴛᴛ DᴠD Rᴇʟᴇᴀsᴇ Uᴘᴅᴀᴛᴇs📀📢", "https://t.me/NewDVDReleaseUpdate")],
-    [Button.url("🔰⭕️🇳ᴇᴛꜰʟɪX 🇩ʀɪᴠᴇ [ #LᴇᴀᴋᴇᴅƦɪᴘs™ ]🎥✅", "https://t.me/+nD5DFLywYfI2YmM8")],
+    [Button.url("💎🎬 Mᴏᴠɪᴇs Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🎬💎", "https://t.me/Film_Channel")],
+    [Button.url("🔊📀Nᴇᴡ Oᴛᴛ DᴠD Rᴇʟᴇᴀsᴇ Uᴘᴅᴀᴛᴇs📀📢", "https://t.me/New_DVD_OTT_Update")],
+    [Button.url("🔰⭕️🇳ᴇᴛꜰʟɪX 🇩ʀɪᴠᴇ [ #LᴇᴀᴋᴇᴅƦɪᴘs™ ]🎥✅", "https://t.me/+yyTPbIAVLtc4YjBk")],
 ]
 
 
